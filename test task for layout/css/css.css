@@ -1,0 +1,477 @@
+/*GLOBAL*/
+body{
+	padding: 0;
+	margin: 0;
+	font-family: "Museo Sans Cyrl 500", Arial, sans-serif;
+	color: #1D1D39;
+}
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+/*Header*/
+header{
+	width: 100%;
+	height: 90px;
+}
+.headerWrapper{
+	margin: 0 10%;
+	padding-top: 25px;
+	display: flex;
+	justify-content: space-between;
+}
+nav.headerNav{
+	padding: 14px;
+	display: flex;
+	justify-content: space-around;
+	width: 35%;
+}
+.headerNav a{
+	color: black;
+	text-decoration: none;
+	font-size: 16px;
+	transition: .3s;
+}
+.headerNav a:hover{
+	color: #BDB76B;
+}
+.headerButtonDiv{
+	padding: 4px;
+}
+button.headerButton{
+	background: #039BE6;
+	color: white;
+	height: 40px;
+	width: 100px;
+	border-radius: 25px;
+	border: 0;
+	transition: .3s;
+}
+button.headerButton:hover{
+	color: #FFD700;
+	background: #87CEEB;
+}
+button.headerButton:active{
+	background: #FF4500;
+}
+/*MAIN*/
+main{
+	width: 100%;
+}
+#mainWrapper{
+	padding: 0 10%;
+}
+.mainSectionOne{
+	height: 360px;
+	text-align: center;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.mainSectionTwoWrapperText{
+	margin: 100px 0;
+}
+.mainSectionOne h1{
+	font-size: 36px;
+	line-height: 48px;
+}
+.mainSectionTwo{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.mainSectionTwoWrapperContent{
+	display: flex;
+	justify-content: space-between;
+}
+.mainSectionTwoWrapperContent div:not(:first-child){
+	padding-left: 5%;
+}
+.mainSectionTwoWrapperContent h3{
+	white-space: nowrap;
+	font-size: 16px;
+	line-height: 28px;
+}
+.mainSectionTwoWrapperContent p{
+	font-size: 14px;
+	line-height: 26px;
+	color: #333333;
+}
+.mainSectionThree{
+	margin: 180px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.contentSectionThree{
+	width: 40%;
+}
+.contentSectionThree h1{
+	font-size: 36px;
+	color: #1D1D39;
+}
+.contentSectionThree p{
+	font-size: 14px;
+	line-height: 26px;
+	color: #333333;
+}
+.mainSectionThreeButton{
+	display: flex;
+	justify-content: space-between;
+}
+button.buttonMain{
+	width: 189px;
+	height: 60px;
+	background: #03973D;
+	border: 0;
+	border-radius: 30px;
+	font-size: 14px;
+	line-height: 26px;
+	color: white;
+	transition: .3s;
+}
+.buttonSec div{
+	padding-top: 20px;
+	display: flex;
+  	align-items: center;
+  	justify-content: center
+}
+button.buttonMain:hover{
+	font-size: 16px;
+	background: #4169E1;
+}
+.mainSectionThreeButton a, #upContent a{
+	font-size: 14px;
+	line-height: 21px;
+	color: #039BE6;
+	text-decoration: none;
+}
+.mainSectionThreeButton a:hover, #upContent a:hover{
+	text-decoration: underline;
+}
+.mainSectionFour{
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+}
+.mainSectionFour div{
+	height: 436px;
+	width: 20%;
+	display: flex;
+	align-items: center;
+  	justify-content: center
+}
+.mainSectionFour p{
+	font-size: 16px;
+	color: #333;
+}
+.mainSectionFourButtonContaner{
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+}
+.mainSectionFourButtonContaner button{
+	margin-top: 10%;
+}
+.mainSectionFour img{
+	position: absolute;
+}
+#arrowI{
+	width: 223px;
+	height: 50px;
+	left: 23%;
+	top: 95px;
+}
+#arrowII{
+	width: 100px;
+    height: 12px;
+    left: 62%;
+    top: 200px;
+}
+#upContent{
+	padding: 30px;
+	display: flex;
+	justify-content: space-around;
+	width: 50%;
+	position: absolute;
+	left: 24%;
+    top: 350px;
+    box-shadow: 5px 3px 25px 2px black;
+    transition: .3s;
+}
+#upContent:hover{
+	box-shadow: 3px 2px 5px 1px black;
+}
+#upContent p{
+	font-size: 16px;
+	line-height: 28px;
+}
+.upContentButtons div{
+	padding-top: 20px;
+	margin-left: 20px;
+}
+/*FOOTER*/
+footer{
+	background: #222A35;
+}
+.footerWrapper{
+	padding: 0 10%;
+}
+.footerWrapper a{
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 28px;
+	color: #039BE6;
+}
+.footerNav{
+	padding:60px 0;
+}
+.footerNav a{
+	padding-right: 3%;
+}
+.footerNav a:hover{
+	text-decoration: underline;
+}
+.footerNav a:last-child{
+	padding-left: 40%;
+}
+.footerArrow{
+	padding-bottom: 10px;
+}
+.line{
+	width: 100%;
+	height: 2px;
+	background: rgba(196, 196, 196, 0.1);
+}
+.footerContacts{
+	padding-top: 5%;
+	display: flex;
+}
+.pfone{
+	padding-right: 7%;
+	text-align: left;
+}
+.pfone p{
+	white-space: nowrap;
+	line-height: 28px;
+	color: white;
+}
+.pfone span{
+	color: #828282;
+}
+.footerLogo{
+	margin-right: 5%;
+}
+div.footerSocial{
+	white-space: nowrap;
+	height: 50px;
+	margin-left: 10%;
+}
+.footerSocial img{
+	display: inline-block;
+	padding: 12% 10px;
+}
+.footerSocial img:hover{
+	opacity: .5;
+}
+.footerEnd{
+	padding: 30px 0;
+	display: flex;
+	justify-content: space-between;
+}
+div.footerEnd a.footerEndRight{
+	color: #484B50;
+	cursor: auto;
+}
+
+@media screen and (max-width: 1670px){
+	div.footerSocial{
+		padding-left: 10%;
+	}
+}
+@media screen and (max-width: 1500px){
+	.pfone {
+    padding-right: 2%;
+	}
+}
+@media screen and (max-width: 1310px){
+	#arrowI {
+	    left: 19%;
+	    top: 85px;
+	}
+	.footerContacts a, .footerContacts p{
+    	font-size: 12px;
+	}
+	.footerWrapper a {
+	    font-size: 10px;
+	    line-height: 18px;
+	}
+	.mainSectionThreeButton a, #upContent a {
+		padding-left: 5%;
+	    font-size: 12px;
+	    white-space: nowrap;
+	}
+}
+@media screen and (max-width: 1000px){
+	.mainSectionTwoWrapperContent {
+	    display: flex;
+	    flex-direction: column;
+	}
+	.mainSectionTwoWrapperContent div:not(:first-child) {
+    	padding-left: 0;
+	}
+	div.mainSectionTwoWrapperContent{
+		width: 60%;
+		padding-left: 12%;
+	}
+	.mainSectionFourButtonContaner h1{
+		font-size: 18px;
+	}
+}
+@media screen and (max-width: 1100px){
+	.headerWrapper{
+		margin: 0 5%;
+	}
+	#upContent {
+    	padding: 16px;
+	}
+	#arrowI, #arrowII{
+		display: none;
+	}
+	.footerLogo , .requisites{
+		display: none;
+	}
+	div.footerSocial {
+    	margin-left: 4%;
+	}
+	.footerSocial img{
+		padding: 6% 10px;
+	}
+	.contentSectionThree h1 {
+	    font-size: 18px;
+	}
+	.mainSectionFour div {
+	    width: 30%;
+	}
+}
+@media screen and (max-width: 875px){
+	.mainSectionOne{
+		height: 150px;
+		padding-bottom: 160px;
+	}
+	#upContent {
+		top: 230px;
+	    padding: 10px;
+	    flex-direction: column;
+	    border-radius: 30px;
+	}
+	.upContentButtons{
+		text-align: center;
+	}
+	nav.headerNav {
+    	width: 50%;
+	}
+	.mainSectionTwoWrapperText {
+    	margin: 100px 0 0 0;
+	}
+	.mainSectionThree {
+    	margin: 10px 0;
+    }
+    .mainSectionThree {
+		flex-direction: column;
+	}
+	.contentSectionThree {
+		width: 90%;
+    }
+    #arrowI, #arrowII{
+    	display: none;
+    }
+    .footerNav a:last-child {
+    	padding-left: 10%;
+	}
+	.footerContacts{
+    	display: block;
+	}
+	.pfone{
+		padding-right: 14%;
+		display: inline-block;
+	}
+	div.footerSocial {
+    	padding-left: 25%;
+	}
+	.footerSocial img {
+    	padding: 5% 5px;
+	}
+	.footerEnd a{
+		font-size: 12px;
+    	line-height: 10px;
+	}
+}
+@media screen and (max-width: 760px){
+	.mainSectionFour {
+		padding-left: 12%;
+	    display: flex;
+	    flex-direction: column;
+	}
+	.mainSectionFour div {
+		text-align: center;
+	    height: 200px;
+	    width: 70%;
+	}
+	.footerEnd a {
+	    font-size: 8px;
+	    line-height: 6px;
+	}
+	.contentSectionThree {
+		display: none;
+	}
+	.mainSectionOne h1 {
+	    font-size: 20px;
+	    line-height: 24px;
+	}
+	.mainSectionTwoWrapperText h1{
+		font-size: 18px;
+	}
+	#upContent {
+		width: 70%;
+		left: 10%;
+	}
+	.pfone{
+		display: block;
+		padding-left: 30%;
+	}
+	.footerContacts a, .footerContacts p {
+	    font-size: 20px;
+	}
+}
+@media screen and (max-width: 600px){
+	.headerLogo{
+		display: none;
+	}
+	.headerNav a {
+	    font-size: 14px;
+	}
+	nav.headerNav {
+    width: 70%;
+	}
+	#upContent p {
+	    font-size: 15px;
+	    line-height: 20px;
+	}
+	div.mainSectionTwoWrapperContent {
+	    width: 70%;
+	    padding-left: 0;
+	}
+	.footerArrow{
+		display: none;
+	}
+	.footerNav a:last-child {
+	    padding-left: 0%;
+	}
+	.footerNav {
+    	padding: 5px 0;
+	}
+	.footerContacts a, .footerContacts p {
+		font-size: 14px;
+	}
+}
